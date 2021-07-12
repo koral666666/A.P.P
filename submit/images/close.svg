@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- exported from Silhouette Studio® Business Edition V4.4.259ssbe -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="6.702778mm" height="8.378472mm" viewBox="0 0 6.702778 8.378472">
+<defs>
+<path id="path_d1fa71e36da9dd8eba06fef7eb53e234" d="M 3.7459 4.196646 L 5.305402 2.637094 C 5.406892 2.535651 5.406892 2.371633 5.305402 2.27019 C 5.20396 2.168748 5.039942 2.168748 4.9385 2.27019 L 3.378949 3.829742 L 1.819446 2.27019 C 1.717956 2.168748 1.553985 2.168748 1.452543 2.27019 C 1.351053 2.371633 1.351053 2.535651 1.452543 2.637093 L 3.012046 4.196646 L 1.452543 5.756199 C 1.351053 5.857641 1.351053 6.021659 1.452543 6.123102 C 1.503098 6.173704 1.56957 6.199124 1.635995 6.199124 C 1.702419 6.199124 1.768844 6.173704 1.819446 6.123102 L 3.378949 4.563549 L 4.9385 6.123102 C 4.989102 6.173704 5.055527 6.199124 5.121952 6.199124 C 5.188376 6.199124 5.2548 6.173704 5.305402 6.123102 C 5.406892 6.021659 5.406893 5.857641 5.305402 5.756199 L 3.7459 4.196646 Z" fill-rule="evenodd" fill="#000000" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="0.3524892" stroke-linecap="butt" stroke-linejoin="miter"/>
+</defs>
+<g>
+<use xlink:href="#path_d1fa71e36da9dd8eba06fef7eb53e234"/>
+</g>
+</svg>

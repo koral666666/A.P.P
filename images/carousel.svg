@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- exported from Silhouette Studio® Business Edition V4.4.259ssbe -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="304.8mm" height="304.8mm" viewBox="0 0 304.8 304.8">
+<defs>
+<path id="path_ce411f574f09a8fdbc6f1d28c78a3c83" d="M 79.68142 213.1466 C 85.574 213.1466 90.3605 207.7337 90.3605 201.0701 L 90.36059 103.5959 C 90.36059 96.93225 85.57406 91.51938 79.68151 91.51938 L 61.07922 91.51938 C 55.18664 91.51938 50.40014 96.93225 50.40014 103.5959 L 50.40005 201.0701 C 50.40005 207.7337 55.18658 213.1466 61.07912 213.1466 L 79.68142 213.1466 Z" fill-rule="evenodd" fill="#000000" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="0.1" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="path_bbfb467249c352d2c8a017a19ca2c005" d="M 243.5276 213.1463 C 249.4201 213.1463 254.2066 207.7334 254.2066 201.0698 L 254.2066 103.596 C 254.2066 96.93245 249.4201 91.51958 243.5276 91.51958 L 224.9254 91.51958 C 219.0329 91.51958 214.2464 96.93245 214.2464 103.596 L 214.2465 201.0698 C 214.2465 207.7334 219.033 213.1463 224.9255 213.1463 L 243.5276 213.1463 Z" fill-rule="evenodd" fill="#000000" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="0.1" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="path_71b4891a1dd9682f909f2b8f4e52c4a1" d="M 185.1916 233.2779 C 194.1891 233.2779 201.4979 224.9599 201.4979 214.72 L 201.4979 89.94591 C 201.4979 79.70592 194.1891 71.38792 185.1916 71.38792 L 119.4532 71.38792 C 110.4556 71.38792 103.1468 79.70592 103.1468 89.94591 L 103.1468 214.72 C 103.1468 224.9599 110.4556 233.2779 119.4532 233.2779 L 185.1916 233.2779 Z" fill-rule="evenodd" fill="#000000" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="0.1" stroke-linecap="round" stroke-linejoin="round"/>
+</defs>
+<g>
+<g>
+<use xlink:href="#path_ce411f574f09a8fdbc6f1d28c78a3c83"/>
+</g>
+<g>
+<use xlink:href="#path_bbfb467249c352d2c8a017a19ca2c005"/>
+</g>
+<g>
+<use xlink:href="#path_71b4891a1dd9682f909f2b8f4e52c4a1"/>
+</g>
+</g>
+</svg>

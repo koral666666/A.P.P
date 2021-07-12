@@ -1,0 +1,44 @@
+[
+    {
+        "purifier_id": "1928",
+        "gas": "CO",
+        "severity": "semi_danger",
+        "summary":"Gas <b>CO</b> is about to be too high.<br>Please address the issue !",
+        "info":"Gas <b>CO</b> is about to be too high.<br>As a result of over-pollution the gas is in a serious state.<br>This condition harms the ability of our purifier to purify,<br>If not resolved the city will remain polluted..<br>Please address the issue !<br>"
+    },
+    {
+        "purifier_id": "6923",
+        "gas": "LEAD",
+        "severity": "warning",
+        "summary":"Gas <b>LEAD</b> is about to be too low, check all of.........<br>Please address the issue !",
+        "info":"Gas <b>LEAD</b> is about to be too low,<br>Check all of purifiers in the area for maximum purification<br>Please address the issue !"
+    },
+    {
+        "purifier_id": "3758",
+        "gas": "NITROGEN",
+        "severity": "danger",
+        "summary":"Purifier stopped purify <b>NITROGEN</b> !<br>",
+        "info":"Purifier stopped purify <b>NITROGEN</b> !<br>If the problem won't be fixed this purifier must be sent<br>to rebut for fixing the issue !"  
+    },
+    {
+        "purifier_id": "7462",
+        "gas": "SULFER",
+        "severity": "semi_danger",
+        "summary":"Gas <b>SULFUR</b> is about to be too high.<br>Please address the issue !",
+        "info":"Gas <b>SULFUR</b> is about to be too high.<br>As a result of over-pollution the gas is in a serious state.<br>This condition harms the ability of our purifier to purify,<br>If not resolved the city will remain polluted..<br>Please address the issue !<br>"  
+    },
+    {
+        "purifier_id": "7543",
+        "gas": "LEAD",
+        "severity": "warning",
+        "summary":"Gas <b>LEAD</b> is about to be too low, check all of.........<br>Please address the issue !",
+        "info":"Gas <b>LEAD</b> is about to be too low,<br>Check all of purifiers in the area for maximum purification<br>Please address the issue !"
+    },
+    {
+        "purifier_id": "9152",
+        "gas": "NITROGEN",
+        "severity": "danger",
+        "summary":"Purifier stopped purify <b>NITROGEN</b> !<br>",
+        "info":"Purifier stopped purify <b>NITROGEN</b> !<br>If the problem won't be fixed this purifier must be sent<br>to rebut for fixing the issue !"  
+    }
+]

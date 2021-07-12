@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- _____________________________________________________________________________ bootstrap & jd & jQuery -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    <!-- _____________________________________________________________________________ fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap"    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+    
+    <!-- _____________________________________________________________________________ my css & javaScript -->
+    <link rel="stylesheet" href="includes/style.css">
+    <script src="includes/scripts.js"></script>
+    
+    <!-- _____________________________________________________________________________ icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <link rel="icon" type="image/svg" href="images/title_icon.svg">
+    <title>Abnormality Alerts</title>
+</head>
+
+<body id="abnormality_alerts" class="side_nav side_main_pages">
+    <header>
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                    <div class="col-auto">
+                        <a href="index.html" id="logo"></a>
+                    </div>
+                    <div class="col-auto">
+                        <form action="" method="GET" class="form-control-md">
+                            <div class="search">
+                                <button type="submit" class="no_border"><i class="fa fa-search"></i></button>                 
+                                <input type="text" placeholder="Search" name="search" class="search_input no_border">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-auto">
+                        <a href="#" id="language"></a>
+                    </div>
+                    <div class="col d-flex justify-content-end"><a href="abnormality_alerts.html" class="selected_nav"><svg></svg><span>Abnormality</span></a></div>
+                    <div class="col d-flex justify-content-center"><a href="#"><svg></svg><span>Colling Units</span></a></div>
+                    <div class="col d-flex justify-content-start"><a href="#"><svg></svg><span>System</span></a></div>
+                    <div class="col-auto">
+                        <svg></svg>
+                    </div>
+                    <div class="col-auto"><span id="user_name">Hello, Yoav</span></div>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="container-fluid d-flex flex-column align-items-center">
+            <div class="row"><a href="start_purifier.php"><svg></svg><span>Purifier</span></a></div>
+            <div class="row"><a href="#"><svg></svg><span>Map</span></a></div>
+            <div class="row"><a href="alerts.html" class="selected_nav"><svg></svg><span>Alerts</span></a></div>
+            <div class="row"><a href="reports.html"><svg></svg><span>Reports</span></a></div>
+        </div>
+        
+        <main>
+            <div class="container-fluid d-flex flex-column align-items-center">
+                <div class="row">
+                    <div class="col ">
+                        <h1>Abnormality Alerts</h1>
+                    </div>
+                    <div class="col d-flex justify-content-center">
+                        <img src="images/list.svg" title="list view" alt="list view">
+                    </div>
+                    <div class="col d-flex justify-content-center">
+                        <img src="images/carousel.svg" title="carousel view" alt="carousel view">
+                    </div>
+                </div>
+                <div class="row">
+                    <svg></svg>
+                </div>
+                <div id="abnormality_list" class="container-fluid">
+                    <div class="row">
+                        <div class="col-auto"><svg></svg></div>
+                        <div class="col"><h3>Purifier 1928</h3><span>Gas <b>CO</b> is about to be too high.<br>Please address the issue !</span></div>
+                        <div class="col-auto d-flex align-items-center"><button type="button" class="btn btn-light info" data-toggle="modal" data-target="#alerts_more_info">info</button></div>
+                    </div>
+                    <div class="row">
+                        <svg></svg>
+                    </div>
+                    <div class="row">
+                        <div class="col-auto"><svg></svg></div>
+                        <div class="col"><h3>Purifier 6923</h3><span>Gas <b>LEAD</b> is about to be too low, check all of.........<br>Please address the issue !</span></div>
+                        <div class="col-auto d-flex align-items-center"><button type="button" class="btn btn-light info" data-toggle="modal" data-target="#alerts_more_info">info</button></div>
+                    </div>
+                    <div class="row">
+                        <svg></svg>
+                    </div>
+                    <div class="row">
+                        <div class="col-auto"><svg></svg></div>
+                        <div class="col"><h3>Purifier 3758</h3><span>Purifier stopped purify <b>NITROGEN</b> !<br></span></div>
+                        <div class="col-auto d-flex align-items-center"><button type="button" class="btn btn-light info" data-toggle="modal" data-target="#alerts_more_info">info</button></div>
+                    </div>
+                    <div class="row">
+                        <svg></svg>
+                    </div>
+                    <div class="row">
+                        <div class="col-auto"><svg></svg></div>
+                        <div class="col"><h3>Purifier 7462</h3><span>Gas <b>SULFUR</b> is about to be too high.<br>Please address the issue !</span></div>
+                        <div class="col-auto d-flex align-items-center"><button type="button" class="btn btn-light info" data-toggle="modal" data-target="#alerts_more_info">info</button></div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </section>
+
+    <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="alerts_more_info">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-auto"><svg></svg></div>
+                            <div class="col-auto">
+                                <h3>Purifier 1928</h3>
+                                <span>
+                                    Gas <b>CO</b> is about to be too high.<br>
+                                    As a result of over-pollution the gas is in a serious state.<br>
+                                    This condition harms the ability of our purifier to purify,<br>
+                                    If not resolved the city will remain polluted..<br>
+                                    Please address the issue !<br>
+    
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

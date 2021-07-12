@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- _____________________________________________________________________________ bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <!-- _____________________________________________________________________________ jQuery -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+        
+    <!-- _____________________________________________________________________________ fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap"    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+    
+    <!-- _____________________________________________________________________________ my css & javaScript -->
+    <link rel="stylesheet" href="includes/style.css">
+    <script src="includes/scripts.js"></script>
+    
+    <!-- _____________________________________________________________________________ icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <link rel="icon" type="image/svg" href="images/title_icon.svg">
+    <title>Home Page</title>
+</head>
+
+<body id="signUp" class="text-center">
+    <header>
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                    <div class="col-auto">
+                        <a href="index.html" id="logo"></a>
+                    </div>
+                    <div class="col-auto">
+                        <form action="" method="GET" class="form-control-md">
+                            <div class="search">
+                                <button type="submit" class="no_border"><i class="fa fa-search"></i></button>                 
+                                <input type="text" placeholder="Search" name="search" class="search_input no_border">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-auto">
+                        <a href="#" id="language"></a>
+                    </div>
+                    <div class="col"></div>
+                    <div class="col"></div>
+                    <div class="col"></div>
+                    <div class="col-auto">
+                        <svg></svg>
+                    </div>
+                    <div class="col-auto"><span id="user_name">Hello, Yoav</span></div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <h1 class="h3 mb-3 fw-normal">Sign up</h1>
+            <svg></svg>
+        </section>
+
+
+        <form action="purifier.php" method="GET" id="add_new" class="needs-validation purifier_form" novalidate>
+            <div class="row d-flex flex-column">
+                <section class="top sm d-flex"><h4 class="text-success">User name</h4></section>
+                <section class="bott sm d-flex align-items-center">
+                    <div class="row">
+                        <div class="col-auto">
+                            <svg></svg>
+                            <span>First name</span>
+                        </div>
+                        <div class="col-auto">
+                            <input type="text" class="form-control my_input" id="first_name" name="first_name">
+                        </div>
+                        <div class="col-auto">
+                            <svg></svg>
+                            <span>Last name</span>
+                        </div>
+                        <div class="col-auto">
+                            <input type="text" class="form-control my_input" id="last_name" name="last_name">
+                        </div>  
+                    </div>
+                </section>
+            </div>
+            <div class="row d-flex flex-column">
+                <section class="top sm d-flex"><h4 class="text-success">Job title</h4></section>
+                <section class="bott sm d-flex align-items-center">
+                    <div class="col-auto">
+                        <svg></svg>
+                        <span>Choose</span>
+                    </div>
+                    <div class="col-auto">
+                        <select class="form-select my_select">
+                            <option value="Region_Supervisor">Region Supervisor</option>
+                            <option value="Chemist">Chemist</option>
+                            <option value="Technician" selected>Technician</option>
+                        </select>
+                    </div>  
+                </section>
+            </div> <!-- until here ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ -->
+            <div class="row d-flex flex-column">
+                <section class="top d-flex"><h4 class="text-success">Location</h4></section>
+                <section class="bott lg d-flex align-items-center">
+                    <div class="row">
+                        <div class="col-auto">
+                            <svg></svg>
+                            <span>Region</span>
+                        </div>
+                        <div class="col-auto">
+                            <input type="text" class="form-control my_input" id="purifier_region" name="purifier_region" required>
+                            <div class="invalid-feedback">You must enter Region</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-auto">
+                            <svg></svg>
+                            <span>Street</span>
+                        </div>
+                        <div class="col-auto">
+                            <input type="text" class="form-control my_input" id="purifier_street" name="purifier_street" required>
+                            <div class="invalid-feedback">You must enter a street</div>
+                        </div>
+                        <div class="col-auto">
+                            <svg></svg>
+                            <span>St. Number</span>
+                        </div>
+                        <div class="col-auto">
+                            <input type="text" class="form-control my_input" id="purifier_st_number" name="purifier_st_number" required>
+                            <div class="invalid-feedback">You must enter st Number</div>
+                        </div>    
+                    </div>
+                </section>
+            </div>
+            <div class="row d-flex justify-content-end">
+                <button type="submit" class="btn btn-success" id="sign_up">sign up</button>
+            </div>
+        </form>
+    </main>
+
+</body>
+
+</html>
